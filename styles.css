@@ -35,6 +35,7 @@ p{
     font-size: 1rem;
     font-weight: 300;
 }
+
 /* HERO SECTION  */
 .hero{
     background-color: #3A9B88;
@@ -167,7 +168,7 @@ p{
     .hero-contact p, .hero-contact h5{
         display: none;
     }
-    .bio .hero-contact p{
+    .bio  .hero-contact p{
         display: block;
     }
     .hero p {
@@ -427,6 +428,7 @@ nav img{
         position: relative;
         font-size: 32px;
         cursor: pointer;
+        color: #3A9B88;
         z-index: 9999; /* Higher than nav */
     }
     
