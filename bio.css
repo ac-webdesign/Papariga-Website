@@ -41,13 +41,18 @@ header{
 .colored-section{
     width: 100%;
     max-width: 1200px;
-    background-color: #C1D9CB;
     padding: 3rem;
     margin-bottom: 0;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
+.green{
+    background-color: #C1D9CB;
+}
+.orange{
+    background-color:#D5CA9A;
+}
 .colored-section p{
-    max-width: 100%;
+    max-width: 90%;
     color: white;
     font-weight: 400;
 }

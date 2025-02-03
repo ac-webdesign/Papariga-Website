@@ -11,7 +11,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://homeopath_afroditi.netlify.app/services/service1</loc>
+    <loc>https://homeopath_afroditi.netlify.app/services/onlinesessions</loc>
     <lastmod>2025-02-01</lastmod>
     <priority>0.7</priority>
   </url>
@@ -26,7 +26,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://homeopath_afroditi.netlify.app/about</loc>
+    <loc>https://homeopath_afroditi.netlify.app/bio</loc>
     <lastmod>2025-02-01</lastmod>
     <priority>0.8</priority>
   </url>
