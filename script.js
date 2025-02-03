@@ -29,15 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     });
 
-    // Close the menu when a nav-item is clicked
-    // navItems.forEach((item) => {
-    // item.addEventListener('click', () => {
-    //     nav.classList.remove('active');
-    //     burgerMenu.classList.remove('open');
-    //     burgerMenu.textContent = '☰'; // Reset icon
-    //     document.body.style.overflow = 'auto';
-    // });
-    // });
 })
 
 // HERO SECTION CHANGING PHOTOS
@@ -119,10 +110,7 @@ dropdownMobile.addEventListener('click', () => {
         dropdownMobileMenu.classList.add('show');
     }
 });
-// Hide dropdown on mouseleave
-// dropdownMobile.addEventListener('mouseleave', () => {
-//     dropdownMobileMenu.classList.remove('show');
-// }); 
+
 // TEXT ANIMATION
 
 const text= document.querySelector('.text-animation');

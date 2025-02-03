@@ -121,6 +121,22 @@ p{
         height: 180px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     }
+    .hero-contact-social{
+        display: flex;
+        background-color: rgba(240, 248, 255,1);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2rem;
+        padding: 1rem 2rem;
+        gap: 0;
+        width: 400px;
+        height: 180px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+    .hero-contact-social .social-icons i{
+        font-size: 4rem;
+    }
     .hero-contact h3{
         color: #3a9c89;
     }
@@ -149,7 +165,7 @@ p{
         padding-right: 0;
         justify-content: center;
     }
-    .hero-contact-details, .hero-contact-location{
+    .hero-contact-details, .hero-contact-location, .hero-contact-social{
         width: 340px;
         height: 160px;
     }
@@ -177,7 +193,7 @@ p{
     .hero-right{
         height: 520px;
     }
-    .hero-contact-details, .hero-contact-location{
+    .hero-contact-details, .hero-contact-location, .hero-contact-social{
         width: 160px;
         height: 70px;
         padding: 1rem;
@@ -289,10 +305,11 @@ nav a:hover, .dropdown-mobile .nav-link:hover{
 }
 
 .nav-footer .social-icons{
-    margin-bottom: 2rem;
-    gap: 0;
+    margin-left: 0.5rem;
+    gap: 1rem;
     width: min-content;
 }
+
 hr{
     display: none;
 }
@@ -389,15 +406,14 @@ nav img{
     .nav-footer.active{
         display: block;
     }
-    .nav-footer i, .social-icons i {
-        color: #A6A997;
+    .nav-footer a{
+        padding: 0;
     }
-
+    
     .nav-footer{
-        color: #A6A997;
         display: flex;
         align-items: start;
-        justify-content: center;
+        justify-content: start;
         flex-direction: column;
         margin-top: 5rem;
     }
@@ -704,28 +720,28 @@ nav img{
 .tab-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     padding: 2rem;
     cursor: pointer;
-    height: 300px;
+    height: 260px;
 }
 
 .image-container{
-    height: 300px;
+    height: 200px;
     width: 100%;
     background-image: url(images/online_sessions.jpg);
     background-size: cover;
     background-position: center;
 }
 .image-container1{
-    height: 300px;
+    height: 200px;
     width: 100%;
     background-image: url(images/olistiki.jpg);
     background-size: cover;
     background-position: center;
 }
 .image-container2{
-    height: 300px;
+    height: 200px;
     width: 100%;
     background-image: url(images/homeopathy.jpg);
     background-size: cover;

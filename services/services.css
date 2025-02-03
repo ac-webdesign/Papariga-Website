@@ -35,11 +35,26 @@
         gap: 2rem;
         padding: 0;
     }
-    .article-body p{
-        max-width: 300px;
+    .article-body{
+        padding: 1rem;
     }
     .title-container{
         margin-bottom: 2rem;
     }
    
+}
+@media (max-width: 500px) {
+    .text-animation{
+        font-size: 2rem;
+    }
+    .article-image{
+        max-width: 320px
+    }
+    .article-body{
+        max-width: 300px;
+        text-align: start;
+    }
+    .article-body{
+        padding: 0;
+    }
 }
