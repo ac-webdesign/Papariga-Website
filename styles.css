@@ -11,7 +11,7 @@
     font-weight: normal;
     src: local('PFDinDisplayPro-Regular'), url('PFDinDisplayPro-Regular.woff') format('woff');
 }
-    
+
 h1{ font-size: 72px;
     opacity: 0;
     transform: translateY(100px);
@@ -53,10 +53,11 @@ p{
 }
 .hero h1{
     color: white;
-    font-family: "Inter", serif;
-    font-weight: 400;
+    font-family: 'Georgia',"Times New Roman", serif;
+    font-weight: 200;
 }
 .hero h2{
+    /* font-family: 'Georgia',"Times New Roman", serif; */
     margin-bottom: 1rem;
     font-weight: 300;
 }
@@ -69,6 +70,7 @@ p{
 .hero p{
     color: white;
     margin-bottom: 2rem;
+    
 }
 .photo {
     position: absolute;
