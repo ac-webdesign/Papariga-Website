@@ -83,33 +83,37 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // NAVIGATION DROPDOWN MENU
-const dropdownService = document.querySelector('.dropdown');
-const dropdown = document.querySelector('.dropdown-menu');
+document.addEventListener("DOMContentLoaded", function () {
+    const dropdowns = document.querySelectorAll(".dropdown");
+    
+    if (window.innerWidth >= 1000) {
+        dropdowns.forEach(dropdown => {
+            const dropdownMenu = dropdown.querySelector(".dropdown-menu");
 
-if(window.innerWidth >= 1000){
-// Show dropdown on mouseenter
-    dropdownService.addEventListener('mouseenter', () => {
-        dropdown.classList.add('show');
-    });
+            // Show dropdown on mouseenter
+            dropdown.addEventListener("mouseenter", () => {
+                dropdownMenu.classList.add("show");
+            });
 
-    // Hide dropdown on mouseleave
-    dropdownService.addEventListener('mouseleave', () => {
-        dropdown.classList.remove('show');
-    });   
-}
-      
-const dropdownMobile = document.querySelector('.dropdown-mobile')
-const dropdownMobileMenu = document.querySelector('.dropdown-menu-mobile')
-
-dropdownMobile.addEventListener('click', () => {
-    if (dropdownMobileMenu.classList.contains('show')) {
-        dropdownMobileMenu.classList.remove('show');
-        dropdownMobileMenu.classList.add('close');
-    } else {
-        dropdownMobileMenu.classList.remove('close');
-        dropdownMobileMenu.classList.add('show');
+            // Hide dropdown on mouseleave
+            dropdown.addEventListener("mouseleave", () => {
+                dropdownMenu.classList.remove("show");
+            });
+        });
     }
+
+    // Mobile dropdowns
+    const dropdownMobiles = document.querySelectorAll(".dropdown-mobile");
+
+    dropdownMobiles.forEach(dropdownMobile => {
+        const dropdownMobileMenu = dropdownMobile.querySelector(".dropdown-menu-mobile");
+
+        dropdownMobile.addEventListener("click", () => {
+            dropdownMobileMenu.classList.toggle("show");
+        });
+    });
 });
+
 
 // TEXT ANIMATION
 

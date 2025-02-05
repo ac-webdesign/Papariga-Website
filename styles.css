@@ -14,7 +14,6 @@
     
 h1{ font-size: 72px;
     opacity: 0;
-    font-family: 'Century Gothic';
     transform: translateY(100px);
     transition: opacity 1s ease, transform 1s ease;}
 
@@ -54,14 +53,17 @@ p{
 }
 .hero h1{
     color: white;
+    font-family: "Inter", serif;
+    font-weight: 400;
 }
 .hero h2{
     margin-bottom: 1rem;
+    font-weight: 300;
 }
 .hero-right{
     width: 100%;
     position: relative;
-    height: 700px; 
+    height: 600px; 
     overflow: hidden;
 }
 .hero p{
@@ -298,7 +300,7 @@ nav a{
     letter-spacing: normal;
 }
 nav a:hover, .dropdown-mobile .nav-link:hover{
-    color: #1d4e44;
+    color: #2f7d6e;
 }
 .nav-footer{
     display: none;
@@ -575,7 +577,8 @@ nav img{
     border: 2px solid #3A9B88;
 }
 .about button:hover{
-    background-color: hsl(70, 9%, 33%);
+    background-color:#3A9B88;
+    color: white;
 }
 .about p{
     max-width: 760px;
@@ -729,21 +732,21 @@ nav img{
 .image-container{
     height: 200px;
     width: 100%;
-    background-image: url(images/online_sessions.jpg);
+    background-image: url(images/homeopathy.png);
     background-size: cover;
     background-position: center;
 }
 .image-container1{
     height: 200px;
     width: 100%;
-    background-image: url(images/olistiki.jpg);
+    background-image: url(images/ανθοιαματα_bach.png);
     background-size: cover;
     background-position: center;
 }
 .image-container2{
     height: 200px;
     width: 100%;
-    background-image: url(images/homeopathy.jpg);
+    background-image: url(images/Διατροφικα_συμπληρώματα.png);
     background-size: cover;
     background-position: center;
 }
@@ -850,13 +853,19 @@ nav img{
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
 .social-icons{
     display: flex;
     gap: 1rem;
 }
 .social-icon i{
+    transition: all ease 0.3s;
     font-size: 3rem;
     color: #3A9B88;
+}
+.social-icon i:hover{
+    transform: translateY(-3px);
+    color: #2f7d6e;
 }
 .social-container{
     display: flex;
