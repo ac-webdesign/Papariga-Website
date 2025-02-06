@@ -5,12 +5,12 @@
     font-family:'Roboto Condensed', 'PFDinDisplayPro-Regular',system-ui;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'PFDinDisplayPro-Regular';
     font-style: normal;
     font-weight: normal;
     src: local('PFDinDisplayPro-Regular'), url('PFDinDisplayPro-Regular.woff') format('woff');
-}
+} */
 
 h1{ font-size: 72px;
     opacity: 0;
@@ -53,13 +53,15 @@ p{
 }
 .hero h1{
     color: white;
-    font-family: 'Georgia',"Times New Roman", serif;
-    font-weight: 200;
+    font-family: 'Georgia',sans-serif;
+    font-weight: 400;
+    /* font-size: 60px; */
+    /* letter-spacing: 1px; */
 }
 .hero h2{
     /* font-family: 'Georgia',"Times New Roman", serif; */
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 .hero-right{
     width: 100%;
