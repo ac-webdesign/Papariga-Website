@@ -26,7 +26,6 @@ header{
     padding: 4rem 0 0;
     margin-bottom: 3rem;
     background-color: #F8F7F4;
-    color: #818FA1;
 }
 .about-container{
     margin-bottom: 2rem;
@@ -92,7 +91,7 @@ iframe{
 .about p{
     /* font-family: 'Century Gothic'; */
     font-size: 1rem;
-    color: #818FA1;
+    color: #707070;
 }
 footer p {
     color: white;
