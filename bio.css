@@ -90,7 +90,7 @@ iframe{
 }
 
 .about p{
-    font-family: 'Century Gothic';
+    /* font-family: 'Century Gothic'; */
     font-size: 1rem;
     color: #818FA1;
 }
