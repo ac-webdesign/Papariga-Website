@@ -57,9 +57,8 @@ p{
     font-weight: 400;
 }
 .hero h2{
-    /* font-family: 'Georgia',"Times New Roman", serif; */
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 .hero-right{
     width: 100%;
