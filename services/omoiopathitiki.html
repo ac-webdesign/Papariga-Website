@@ -58,11 +58,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Euphoria+Script&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        .title-container{
+            margin: 0;
+        }
+        @media (max-width:768px) {
+            .about-container{
+                align-items: center;
+            }
+        }
+        
+    </style>
 </head>
 <body>
     <header>
         <div class="header">
-            <a href="../../index.html" class="logo-container">
+            <a href="../index.html" class="logo-container">
                 <img src="../images/logo.png" alt="Λογότυπο Παπαρήγα Αφροδίτη" class="logo">
             </a>
             <div class="burger-menu">&#9776;</div>
@@ -70,12 +81,25 @@
                 <ul>
                     <li><a href="../index.html" class="nav-item">Αρχική</a></li>
                     <li><a href="../bio.html" class="nav-item">Βιογραφικό</a></li>
-                    <li><a href="../anagkes.html" class="nav-item">Ανάγκες</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="../dunatotites_omoiopathitikis.html" class="nav-link">Δυνατότητες&nbsp;Ομοιοπαθητικής</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../dunatotites_omoiopathitikis.html#dermatika">Διαχείριση Δερματικών</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#autoanosa">Διαχείριση Αυτοάνοσων Νοσημάτων</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#ormonika">Αποκατάσταση Ορμονικής Ισορροπίας</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#xronia">Αντιμετώπιση Χρόνιων Πόνων</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#agxos">Διαχείριση Άγχους και Στρες</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#pepsi">Βελτίωση Πέψης και Υγείας Εντέρου</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#enisxisi">Ενίσχυση του Ανοσοποιητικού Συστήματος</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#ipnos">Βελτίωση του Ύπνου</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#detox">DETOX- Αποτοξίνωση και Καθαρισμός Σώματος</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item dropdown">
                         <a href="../services.html" class="nav-link" style="color: #FFB162;">Υπηρεσίες&nbsp;<img src="../images/orangesvg.svg" alt="^"></a>
                         <ul class="dropdown-menu">
                             <li><a href="omoiopathitiki.html">Ομοιοπαθητική</a></li>
-                            <li><a href="fisiki_upostiriksi.html">Φυσική Υποστήριξη Οργανισμού</a></li>
+                            <li><a href="fisiki_upostiriksi.html">Συμπληρωματικά Συστήματα Φυσικής Υποστήριξης του οργανισμού</a></li>
                             <li><a href="energiakes_therapeies.html">Ενεργειακές Θεραπείες</a></li>
                         </ul>
                     </li>
@@ -87,10 +111,24 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown-mobile">
+                        <div class="nav-link">Δυνατότητες&nbsp;Ομοιοπαθητικής&nbsp;<img src="../images/line-angle-down-icon.svg" alt="^"></div>
+                        <ul class="dropdown-menu-mobile">
+                            <li><a href="../dunatotites_omoiopathitikis.html#dermatika">Διαχείριση Δερματικών</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#autoanosa">Διαχείριση Αυτοάνοσων Νοσημάτων</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#ormonika">Αποκατάσταση Ορμονικής Ισορροπίας</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#xronia">Αντιμετώπιση Χρόνιων Πόνων</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#agxos">Διαχείριση Άγχους και Στρες</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#pepsi">Βελτίωση Πέψης και Υγείας Εντέρου</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#enisxisi">Ενίσχυση του Ανοσοποιητικού Συστήματος</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#ipnos">Βελτίωση του Ύπνου</a></li>
+                            <li><a href="../dunatotites_omoiopathitikis.html#detox">DETOX- Αποτοξίνωση και Καθαρισμός Σώματος</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown-mobile">
                         <div class="nav-link" style="color: #FFB162;">Υπηρεσίες&nbsp;<img src="../images/orangesvg.svg" alt="^"></div>
                         <ul class="dropdown-menu-mobile">
                             <li><a href="omoiopathitiki.html">Ομοιοπαθητική</a></li>
-                            <li><a href="fisiki_upostiriksi.html">Φυσική Υποστήριξη Οργανισμού</a></li>
+                            <li><a href="fisiki_upostiriksi.html">Συμπληρωματικά Συστήματα Φυσικής Υποστήριξης του οργανισμού</a></li>
                             <li><a href="energiakes_therapeies.html">Ενεργειακές Θεραπείες</a></li>
                         </ul>
                     </li>
@@ -104,7 +142,7 @@
                     <li><a href="../contact.html" class="nav-item">Επικοινωνία</a></li>
                     <li>
                         <div class="nav-footer">
-                            <img src="/images/logo.png" alt="Λογότυπο Αφροδίτη Παπαρήγα" class="logo">
+                            <img src="../images/logo.png" alt="Λογότυπο Αφροδίτη Παπαρήγα" class="logo">
 
                             <a href="mailto: afroditihomeopath@gmail.com">
                                 <p><i class="fas fa-envelope"></i> afroditihomeopath@gmail.com</p>
@@ -126,31 +164,42 @@
     <div class="title-container">
         <div class="text-animation">Ομοιοπαθητική</div>
     </div>
-
-    <section class="article">
-        <div class="article-container">
-            <div class="article-body"> 
-                <h2>Ολιστική Προσέγγιση στην Υγεία</h2>
+    <section class="about" id="dermatika">
+        <div class="about-container">
+            <div class="liga-logia"> 
+                <h2>Τι είναι η ομοιοπαθητική</h2>
                 <p>
-                    Η ολιστική προσέγγιση στην υγεία βασίζεται στην αντίληψη ότι το σώμα, ο νους και το πνεύμα είναι αλληλένδετα και επηρεάζουν τη συνολική ευεξία μας. Αντί να επικεντρώνεται αποκλειστικά στην αντιμετώπιση συμπτωμάτων, η ολιστική ιατρική στοχεύει στη ρίζα των προβλημάτων, ενισχύοντας τη φυσική ικανότητα του οργανισμού να αυτοϊαθεί.
-
-Μέσα από φυσικές θεραπείες, όπως η ομοιοπαθητική, η βοτανοθεραπεία, η διατροφή και η ενεργειακή εξισορρόπηση, επιτυγχάνεται μια συνολική αποκατάσταση της υγείας. Παράλληλα, δίνεται έμφαση στη συναισθηματική και ψυχική ισορροπία, καθώς το άγχος και οι αρνητικές σκέψεις συχνά συμβάλλουν στην εμφάνιση ασθενειών.<br><br></p>
+                    Η ομοιοπαθητική είναι ένα φυσικό και ολιστικό θεραπευτικό σύστημα που βασίζεται στην αρχή «το όμοιο θεραπεύει το όμοιο». Αυτό σημαίνει ότι μια ουσία, η οποία σε μεγάλες δόσεις μπορεί να προκαλέσει συγκεκριμένα συμπτώματα σε έναν υγιή άνθρωπο, σε πολύ μικρές και αραιωμένες δόσεις μπορεί να βοηθήσει στην ανακούφιση παρόμοιων συμπτωμάτων στον ασθενή.  
+                    <br><br>
+                    Ως ολιστικό σύστημα, η ομοιοπαθητική δεν επικεντρώνεται μόνο στην ασθένεια, αλλά εξετάζει τον άνθρωπο ως ένα ενιαίο σύνολο, λαμβάνοντας υπόψη τη σωματική του κατάσταση, την ψυχική του διάθεση και τη συναισθηματική του ισορροπία. Αντιμετωπίζει το σώμα και τον νου ως αλληλένδετα στοιχεία, αναζητώντας όχι μόνο την ανακούφιση των συμπτωμάτων, αλλά και την αποκατάσταση της συνολικής ευεξίας του ατόμου.  
+                    <br><br>
+                    Ένα από τα μεγάλα πλεονεκτήματα της ομοιοπαθητικής είναι η ασφαλής και ήπια δράση της, καθώς τα ομοιοπαθητικά σκευάσματα είναι φυσικά και δεν περιέχουν τοξικές ουσίες ή παρενέργειες. Γι’ αυτόν τον λόγο, είναι κατάλληλη για όλες τις ηλικιακές ομάδες, από βρέφη και εγκύους μέχρι ηλικιωμένους.  
+                    <br><br>
+                    Ένα άλλο βασικό χαρακτηριστικό της είναι η εξατομίκευση της θεραπείας. Κάθε άνθρωπος είναι μοναδικός, και η ομοιοπαθητική το αναγνωρίζει, προσαρμόζοντας τη θεραπεία στις ιδιαίτερες ανάγκες του. Δεν υπάρχει μία γενική αγωγή για μια συγκεκριμένη ασθένεια· αντίθετα, η προσέγγιση διαμορφώνεται με βάση τη συνολική εικόνα του ατόμου, συμπεριλαμβανομένου του τρόπου που βιώνει τα συμπτώματά του, της ιδιοσυγκρασίας του και των συνθηκών της ζωής του. Δύο άτομα μπορεί να έχουν την ίδια ασθένεια, αλλά να χρειάζονται διαφορετική θεραπεία, καθώς οι αιτίες και οι επιβαρυντικοί παράγοντες διαφέρουν από άνθρωπο σε άνθρωπο. Έτσι, η θεραπεία δεν στοχεύει απλώς στην εξάλειψη της πάθησης, αλλά και στη βαθύτερη αιτία που την προκάλεσε, επιτυγχάνοντας μια πραγματικά ολιστική αποκατάσταση της υγείας.  
+                    <br><br>
+                    Η ομοιοπαθητική μπορεί να εφαρμοστεί σε ένα ευρύ φάσμα οξέων και χρόνιων παθήσεων, όπως αλλεργίες, δερματικά προβλήματα, μυοσκελετικά θέματα, πεπτικές διαταραχές, άγχος, αϋπνία και πολλά άλλα. Βοηθά το σώμα να ενεργοποιήσει τους φυσικούς του μηχανισμούς αυτοΐασης, ενισχύοντας το ανοσοποιητικό σύστημα και αποκαθιστώντας τη συνολική ισορροπία του οργανισμού.  
+                    <br><br>
+                    Πέρα από τη σωματική θεραπεία, η ομοιοπαθητική υποστηρίζει βαθύτερες αλλαγές σε ψυχοσυναισθηματικό επίπεδο, βοηθώντας το άτομο να διαχειριστεί το στρες, τους φόβους και τις εσωτερικές συγκρούσεις. Πρόκειται για μια ολοκληρωμένη, ολιστική προσέγγιση που στοχεύει στη ριζική αποκατάσταση της υγείας και της εσωτερικής αρμονίας.
+                </p>
             </div>
-            <img src="../images/online_sessions.jpg" alt="Papariga profile photo" class="article-image">
+            <img src="/images/homeopathy.png" alt="Papariga profile photo">
         </div>
         
     </section>
 
     <div class="colored-section green">
-        <p>
-            Πλεονεκτήματα της Ολιστικής Ιατρικής: <br><br>
-            <b>Φυσικές Θεραπείες:</b> Αποφεύγεται η υπερβολική χρήση φαρμάκων και χημικών ουσιών. <br><br>
-            <b>Εστίαση στην Αιτία:</b> Αντί για προσωρινή ανακούφιση, αντιμετωπίζεται η ρίζα του προβλήματος. <br><br>
-            <b>Ενίσχυση Αυτοΐασης: </b> Το σώμα υποστηρίζεται να επανακτήσει τη φυσική του ισορροπία. <br><br>
-            <b>Ψυχική & Σωματική Ευεξία</b>Η υγεία αντιμετωπίζεται ως ενιαίο σύστημα. <br><br>
-            <b>Προσωποποιημένη Φροντίδα</b> Κάθε άτομο προσεγγίζεται ξεχωριστά, ανάλογα με τις ανάγκες του. <br><br>
-            Η ολιστική ιατρική προσφέρει μια πιο φυσική και ισορροπημένη αντιμετώπιση της υγείας, ενισχύοντας τη συνολική ποιότητα ζωής!
-        </p>
+        <h4>Δυνατότητες ομοιοπαθητικής</h4>
+        <ul class="dinanotites-menu">
+            <li><a href="../dunatotites_omoiopathitikis.html#dermatika">Διαχείριση Δερματικών</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#autoanosa">Διαχείριση Αυτοάνοσων Νοσημάτων</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#ormonika">Αποκατάσταση Ορμονικής Ισορροπίας</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#xronia">Αντιμετώπιση Χρόνιων Πόνων</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#agxos">Διαχείριση Άγχους και Στρες</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#pepsi">Βελτίωση Πέψης και Υγείας Εντέρου</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#enisxisi">Ενίσχυση του Ανοσοποιητικού Συστήματος</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#ipnos">Βελτίωση του Ύπνου</a></li>
+            <li><a href="../dunatotites_omoiopathitikis.html#detox">DETOX- Αποτοξίνωση και Καθαρισμός Σώματος</a></li>
+        </ul>
     </div>
 
     

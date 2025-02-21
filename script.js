@@ -4,7 +4,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const burgerMenu = document.querySelector('.burger-menu');
     const nav = document.querySelector('nav'); 
-    const navItems = document.querySelectorAll('.nav-item');
     const navFooter = document.querySelector('.nav-footer');
 
     burgerMenu.addEventListener('click', () => {
@@ -115,41 +114,54 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
 // TEXT ANIMATION
 
-const text= document.querySelector('.text-animation');
-        const phrase=text.textContent;
-        let index=0;
+const text = document.querySelector('.text-animation');
+const cursor = document.querySelector('.cursor');
+const phrase = text.textContent;
+let index = 0;
 
+function showLetter() {
+    if (index <= phrase.length) {
+        text.textContent = phrase.slice(0, index);
+        index++;
+        setTimeout(showLetter, 50);
+    } else {
+        // Stop animation and ensure cursor blinks
+        cursor.style.display = 'inline-block';
+    }
+}
 
-        function showLetter(){
-
-            if(index<=phrase.length){
-               text.textContent=phrase.slice(0,index);
-                index++;
-                setTimeout(showLetter,180);
-            }
-            else {
-
-                index=phrase.length;
-                setTimeout(removeLetter,180);
-            }
-            }
-
-        function removeLetter(){
-
-            if(index>=0){
-
-                text.textContent=phrase.slice(0,index);
-                index--;
-                setTimeout(removeLetter,100);
-            }
-            else {
-                index=0;
-                setTimeout(showLetter,100);            
-            }
-        }
-        showLetter();
-
-       
+showLetter(); 
  
+ 
+        const topButton = document.getElementById("topButton");
+        const lastElement = document.querySelector("footer"); // Adjust selector to target the last element
+        
+        window.addEventListener("scroll", () => {
+          const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+          const scrollHeight = document.documentElement.scrollHeight;
+          const clientHeight = document.documentElement.clientHeight;
+          
+          if (scrollTop > 100) {
+            topButton.classList.add("show");
+          } else {
+            topButton.classList.remove("show");
+          }
+        
+          const footerOffset = lastElement.getBoundingClientRect().top + window.scrollY;
+        
+          if (scrollTop + clientHeight >= footerOffset) {
+            topButton.classList.add("sticky-bottom");
+            topButton.style.top = `640px`; // Stick above footer
+          } else {
+            topButton.classList.remove("sticky-bottom");
+            topButton.style.top = "";
+          }
+        });
+        
+        topButton.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+        
