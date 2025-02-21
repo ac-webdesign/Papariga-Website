@@ -295,7 +295,7 @@ nav li{
 nav a{
     text-decoration: none;
     color: #3a9c89;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 700;
     transition: color 0.3s ease;
     padding: 0.5rem 1rem;
@@ -627,6 +627,9 @@ nav img{
     }
 }
 @media (width< 550px) {
+    .about{
+        padding: 8rem 0 3rem;
+    }
     .liga-logia h2{
         text-align: start;
     }
@@ -726,6 +729,10 @@ nav img{
 }
 .tab h6{
     color: #3A9B88;
+    transition: all 0.3s ease;
+}
+.tab h6:hover{
+    color: #FFB162;
 }
 .tab p{
     max-width: 300px;
@@ -735,10 +742,10 @@ nav img{
 .tab-container{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     padding: 1rem 2rem 2rem;
     cursor: pointer;
-    height: 200px;
+    height: 220px;
 }
 
 .image-container{
@@ -1056,7 +1063,4 @@ nav a{
     bottom: auto;
   }
 
-  .dinatotites-menu{
-    text-decoration: none;
-    list-style-type: none;
-}
+  

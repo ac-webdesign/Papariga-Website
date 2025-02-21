@@ -77,3 +77,13 @@
     color:#9b7653;
     text-decoration: none;
 }
+.colored-section a{
+    text-decoration: none;
+}
+.colored-section a h4{
+    color: white;
+    cursor: pointer;
+}
+.colored-section a h4:hover{
+    color: #9b7653;
+}
