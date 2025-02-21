@@ -1063,4 +1063,17 @@ nav a{
     bottom: auto;
   }
 
-  
+  .cursor {
+    display: inline-block;
+    font-weight: bold;
+    animation: blink 0.8s step-start infinite;
+    margin: 0;
+    padding: 0;
+    font-size: 2.4rem;
+    color: white;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
