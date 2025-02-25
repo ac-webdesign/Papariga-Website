@@ -97,7 +97,14 @@ iframe{
 footer p {
     color: white;
 }
-
+.orange a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+.orange a:hover{
+    color: #3A9B88;
+}
 @media (max-width: 1000px) {
     .about-container{
         flex-direction: column-reverse;
