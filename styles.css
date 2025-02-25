@@ -232,6 +232,7 @@ p{
 }
 
 /* HEADER */
+
 header{
     width: 100%;
 }
@@ -332,7 +333,7 @@ nav img{
     /* left: 0; */
     background-color:#2d5e50  ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    padding: 1rem 0.6rem;
     border-radius: 1rem;
     list-style: none;
     z-index: 1000;
@@ -345,7 +346,7 @@ nav img{
 .dropdown-menu.show{
     display: block;
     opacity: 1;
-    transform: translateY(-40px);
+    transform: translateY(-42px);
 }
 /* Στυλ για τα items του dropdown */
 .dropdown-menu li {
@@ -758,14 +759,14 @@ nav img{
 .image-container1{
     height: 200px;
     width: 100%;
-    background-image: url(images/ανθοιαματα_bach.png);
+    background-image: url(images/Gemotherapy.jpg);
     background-size: cover;
     background-position: center;
 }
 .image-container2{
     height: 200px;
     width: 100%;
-    background-image: url(images/Διατροφικα_συμπληρώματα.png);
+    background-image: url(images/reiki.png);
     background-size: cover;
     background-position: center;
 }
@@ -1077,3 +1078,4 @@ nav a{
         opacity: 0;
     }
 }
+
