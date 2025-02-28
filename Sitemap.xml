@@ -1,38 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://homeopath_afroditi.netlify.app/</loc>
+    <loc>https://www.omoiopathitikospapariga.gr/</loc>
     <lastmod>2025-02-01</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://homeopath_afroditi.netlify.app/services</loc>
+    <loc>https://www.omoiopathitikospapariga.gr/dunatotites_omoiopathitikis</loc>
     <lastmod>2025-02-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://homeopath_afroditi.netlify.app/services/onlinesessions</loc>
-    <lastmod>2025-02-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://homeopath_afroditi.netlify.app/services/service2</loc>
-    <lastmod>2025-02-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://homeopath_afroditi.netlify.app/services/service3</loc>
-    <lastmod>2025-02-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://homeopath_afroditi.netlify.app/bio</loc>
+    <loc>https://www.omoiopathitikospapariga.gr/bio</loc>
     <lastmod>2025-02-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://homeopath_afroditi.netlify.app/contact</loc>
+    <loc>https://www.omoiopathitikospapariga.gr/contact</loc>
     <lastmod>2025-02-01</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.omoiopathitikospapariga.gr/services/omoiopathitiki</loc>
+    <lastmod>2025-02-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.omoiopathitikospapariga.gr/services/fisiki_upostiriksi</loc>
+    <lastmod>2025-02-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.omoiopathitikospapariga.gr/services/energiakes_therapeies</loc>
+    <lastmod>2025-02-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.omoiopathitikospapariga.gr/services/onlinesession</loc>
+    <lastmod>2025-02-01</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.omoiopathitikospapariga.gr/services/diazosis</loc>
+    <lastmod>2025-02-01</lastmod>
+    <priority>0.7</priority>
   </url>
 </urlset>

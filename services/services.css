@@ -21,6 +21,7 @@
 }
 .article-body p{
     max-width: 600px;
+    color: rgb(117, 117, 117);
 }
 .article-body h2{
     margin-bottom: 2rem;

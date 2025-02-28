@@ -6,37 +6,37 @@ const breadcrumbData = {
         "@type": "ListItem",
         "position": 1,
         "name": "Αρχική",
-        "item": "https://homeopath_afroditi.netlify.app/"
+        "item": "https://www.omoiopathitikospapariga.gr/"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Υπηρεσίες",
-        "item": "https://homeopath_afroditi.netlify.app/services"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Υπηρεσία 1",
-        "item": "https://homeopath_afroditi.netlify.app/services/service1"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Υπηρεσία 2",
-        "item": "https://homeopath_afroditi.netlify.app/services/service2"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Υπηρεσία 3",
-        "item": "https://homeopath_afroditi.netlify.app/services/service3"
+        "name": "Δυνατότητες Ομοιοπαθητικής",
+        "item": "https://www.omoiopathitikospapariga.gr/dunatotites_omoiopathitikis"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Βιογραφικό",
-        "item": "https://homeopath_afroditi.netlify.app/about"
+        "item": "https://www.omoiopathitikospapariga.gr/bio"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ομοιοπαθητική",
+        "item": "https://www.omoiopathitikospapariga.gr/services/omoiopathitiki"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Φυσική Υποστήριξη Οργανισμού",
+        "item": "https://www.omoiopathitikospapariga.gr/services/fisiki_upostiriksi"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ενεργειακές Θεραπείες",
+        "item": "https://www.omoiopathitikospapariga.gr/services/energiakes_therapeies"
       },
       {
         "@type": "ListItem",
