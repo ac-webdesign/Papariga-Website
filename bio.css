@@ -105,6 +105,14 @@ footer p {
 .orange a:hover{
     color: #3A9B88;
 }
+.liga-logia p a{
+    text-decoration: none;
+    color: #C28447;
+    transition: color 0.3s ease;
+}
+.liga-logia p a:hover{
+    color: #79532d;
+}
 @media (max-width: 1000px) {
     .about-container{
         flex-direction: column-reverse;
