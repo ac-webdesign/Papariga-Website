@@ -755,21 +755,21 @@ nav img{
 .image-container{
     height: 200px;
     width: 100%;
-    background-image: url(images/homeopathy.png);
+    background-image: url(images/homeopathy.webp);
     background-size: cover;
     background-position: center;
 }
 .image-container1{
     height: 200px;
     width: 100%;
-    background-image: url(images/Gemotherapy.jpg);
+    background-image: url(images/Gemotherapy.webp);
     background-size: cover;
     background-position: center;
 }
 .image-container2{
     height: 200px;
     width: 100%;
-    background-image: url(images/reiki.png);
+    background-image: url(images/reiki.webp);
     background-size: cover;
     background-position: center;
 }
