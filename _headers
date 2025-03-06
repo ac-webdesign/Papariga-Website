@@ -1,0 +1,24 @@
+# Cache images for 30 days
+/images/*
+  Cache-Control: public, max-age=2592000, immutable
+
+# Cache CSS for 7 days
+/*.css
+  Cache-Control: public, max-age=604800
+  Content-Type: text/css; charset=UTF-8
+
+/services/*.css
+  Cache-Control: public, max-age=604800
+  Content-Type: text/css; charset=UTF-8
+
+# Cache JS for 7 days
+/*.js
+  Cache-Control: public, max-age=604800
+  Content-Type: application/javascript; charset=UTF-8
+
+# Ensure HTML files are served correctly
+/*.html
+  Content-Type: text/html; charset=UTF-8
+
+/services/*.html
+  Content-Type: text/html; charset=UTF-8
