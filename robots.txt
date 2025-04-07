@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.omoiopathitikospapariga.gr/Sitemap.xml
