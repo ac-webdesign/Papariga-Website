@@ -92,3 +92,64 @@
 .colored-section a h4:hover{
     color: #9b7653;
 }
+
+.tel-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.tel-form input{
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid rgb(185, 185, 185);
+}
+.tel-form button{
+    background-color: #3A9B88;
+    width: 50%;
+    border-radius: 8px;
+}
+.tel-form button:hover{
+    background-color: #FFB162;
+}
+.online-session-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.6rem;
+}
+.online-session-form h3{
+    color: #3A9B88;
+}
+.sticky-call{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    .tel-form{
+        flex-direction: column;
+    }
+    .tel-form button, .tel-form input{
+        width: 100%;
+    }
+    .sticky-call{
+        display: none;
+        background-color: #3A9B88;
+        color: #ffffff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 99999;
+        padding: 1rem;
+        transition: opacity 0.3s ease;
+    }
+    .sticky-call.show {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+    .sticky-call i{
+        font-size: 2rem;
+    }
+}
