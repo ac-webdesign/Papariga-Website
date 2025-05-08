@@ -170,6 +170,7 @@ footer p {
     }
     .colored-section{
         margin-bottom: 2rem;
+        width: 90%;
     }
     .hero-contact-details, .hero-contact-location{
         display: flex;
